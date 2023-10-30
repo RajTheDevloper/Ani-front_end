@@ -1,0 +1,26 @@
+These are the animation added in this project
+
+1. Smooth scrolling
+    [Step1: Search for locomoto js github. ]
+
+    [Step2: Leave HTML and just copy the whole CSS code and paste   in  a separate CSS file and link it in the main page. ]
+
+    [Step3: After that go back and copy the JS code (NOTE: not the boilerplate code) and paste it in the JS file. ]
+
+    [Step4: Then change the el: document.querySelector('____') to your main element in HTML in our case it is '#main']
+    (NOTE: Don't forgot to add the JS file in the main html file)
+
+    [Step 5: Search LOCOMOTIVE JS CDN and click the first link and select the last .min.js file and copy the path from the search bar.]
+
+    [Step6: Add that copied path in the script tag as a CDN link in the main HTML file. ]
+
+2. gsap
+    [Step1: Search for the GSAP CND link click on the fisrt link and copy the fisrt link]
+
+    [step2: Attach it in the main index file ]
+
+    Then all the required as to be written.
+
+3. scroll trigger
+    
+ The Images and the icons are taken from the site called 'pexels.com'(for images), and Remix icon.com(for the icons)

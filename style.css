@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle {
+    width: 10px;
+    height: 10px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
+#main {
+    width: 100%;
+    background-color: black;
+}
+
+#hero {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+}
+
+#heading {
+    margin-top: 90px;
+}
+
+#heading h1{
+    margin-left: 30px;
+    line-height: 1;
+    opacity: .6; /* for dull the font */
+    /* font-family: "Ggeneral Sans Medium"; */
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 9vw;
+    
+}
+
+#heading #secondh1 {
+    margin-left: 130px ;
+}
+
+#blocktext {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* this above code is for the corrections made while doing the transition when reloaded */
+    width: fit-content;
+}
+
+#blocktext h5{
+    text-align: right;
+    opacity: .6;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#smallheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* this above code is for the corrections made while doing the transition when reloaded */
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#smallheadings h5{
+    text-transform: uppercase;
+    margin-top: .5vw; /* font size will decrease as the screen size decreas */
+    font-size: 1vw;
+    text-align: right;
+}
+
+ #herofooter {
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+#herofooter a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #888;
+    
+}
+
+#second {
+    padding-right: 10vw;
+    padding-top: 200px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100hv;
+
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 4vw;
+    opacity: .7;
+}
+
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    height: 90%;
+    width: 30%;
+    /* display:none; */
+    opacity: 0; 
+    /* the image is there but not visible */
+    z-index: 999;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#about {
+    padding: 10vw 10vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 50px; */
+    padding-left: 40vw;
+    width: 100%;
+    background-color: black;
+}
+
+#textabout {
+    width: 35rem;
+}
+
+#textabout h5 {
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#about img{
+    width: 180px;
+    border-radius:90px;
+    
+}
+
+#textabout a {
+    padding: 12px 22px;
+    border: 1px solid #888;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+#subscribe {
+    background-color: black;
+    padding: 20px 40px;
+    padding-bottom: 3vw;
+    color: white;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+
+}
+
+#footerright {
+    display: flex;
+    gap: 40px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
